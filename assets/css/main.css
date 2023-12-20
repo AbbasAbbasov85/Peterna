@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/assets/scss/img/sativa.png);
+}
+
+header {
+  background-color: black;
+  margin-top: -6px;
+}
+header .conthead {
+  max-width: none;
+}
+header .conthead nav {
+  width: 100%;
+  height: auto;
+}
+header .conthead nav .conttext {
+  background-color: black;
+}
+header .conthead nav .conttext .hamburgerbtn {
+  background-color: white;
+}
+header .conthead nav .conttext .peterna {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+}
+header .conthead nav #navbarNav {
+  justify-content: flex-end;
+}
+header .conthead nav #navbarNav ul {
+  font-size: 14px;
+}
+header .conthead nav #navbarNav ul li a {
+  padding: 15px 20px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pagedone {
+  background-color: #00798a;
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
+#pagedone .get {
+  text-align: center;
+  color: #ffffff;
+}
+#pagedone .get span {
+  font-size: 80px;
+  font-weight: 630;
+}
+#pagedone .get h2 {
+  padding: 10px;
+  font-size: 40px;
+}
+#pagedone .get h3 {
+  font-weight: 500;
+  font-size: 25px;
+  padding: 20px;
+}
+#pagedone .get .btndowld {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 20px;
+  color: white;
+  background-color: #fc4065;
+  border: 1px;
+}
+#pagedone .get .btndowld:hover {
+  background-color: #d2322d;
+}
+
+#ourService .contservis .rowservis h1 {
+  padding: 80px 20px 20px 10px;
+  color: #00798a;
+  font-size: 38px;
+}
+#ourService .contservis .rowservis .serlorem {
+  padding-bottom: 40px;
+}
+#ourService .contservis .rowservis .icon {
+  text-align: center;
+}
+#ourService .contservis .rowservis .icon .col-xl-4 {
+  padding: 15px;
+}
+#ourService .contservis .rowservis .icon .col-xl-4 .service-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  width: 100%;
+  padding-right: 15px;
+  color: white;
+  background-color: #00798a;
+}
+#ourService .contservis .rowservis .icon .col-xl-4 .service-div h4 {
+  padding-top: 25px;
+  line-height: 40px;
+  padding-bottom: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+#ourService .contservis .rowservis .icon .col-xl-4 .service-div i {
+  font-size: 40px;
+}
+
+#text {
+  padding: 30px 40px 30px 40px;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+#text .container .row .col-md-6 {
+  margin: 20px;
+}
+
+#projets {
+  background-color: #00798a;
+  width: 100%;
+  height: auto;
+}
+#projets .container .row .col-md-3 .number {
+  text-align: center;
+  width: 100%;
+  min-height: 100px;
+  padding: 30px 20px 30px 20px;
+  color: white;
+}
+#projets .container .row .col-md-3 .number h3 {
+  font-size: 50px;
+}
+#projets .container .row .col-md-3 .number h4 {
+  font-size: 20px;
+}
+
+#footer {
+  padding-top: 100px;
+}
+#footer .container {
+  max-width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  #ourService .contservis .rowservis .cards {
+    gap: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .icon .col-xl-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .col-md-6 {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
